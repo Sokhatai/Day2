@@ -29,7 +29,7 @@ function exo() {
 
 function testNumber(cubes, max){
     if (cubes == null){
-        return 0;
+        return 1;
     }
     for (setOfCubes of cubes){
             numberOfCubes = parseInt(setOfCubes.match(/\d+/));
