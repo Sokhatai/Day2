@@ -62,10 +62,3 @@ const selection = document.getElementById("input");
 selection.addEventListener("change", exo);
 
 
-
-/*         let gameId = game.split(":")[0];               
-let grabCubes = game.split(":")[1];                   
-let cubesByPart = grabCubes.split(";");
-for (let cubes of cubesByPart){
-    console.log(cubes);
-}*/
